@@ -1,0 +1,67 @@
+nestjs é um framework opinado, tem estrutura prévia, você não é 100% livre, traz performance, usa typescript & Decorators
+
+* monolíto - app , db (aplicação toda com um banco de dados)
+
+* microserviços = divide a nossa aplicação em várias pequenas partes menores
+
+o objetivo é tornar cada serviço da aplicação individual 
+sem poder afetar outro serviço em caso de indisponibilidade
+
+temos um banco de dados para cada serviço, mas cada banco possui apenas informações necessárias (reduzidas)
+
+____________________________________________________
+
+npm i -g @nestjs/cli
+
+nest new ignite-lab-nodejs22
+
+npm run start:dev
+
+dist > compilação do projeto (transformação do código)
+node_modules > dependencias
+test > testes 
+nest-cli.json > nest -h
+jest
+src > main.ts
+
+bootstrap cria a aplicação
+
+module > decorator > acoplando uma funcionalidade dentro de uma variável, classe ou função. > @module
+
+serve para informar quais são os services e controllers
+
+controllers > arquivos que são pontos de entrada na aplicação (http), define rotas da aplicação
+
+services > classes sem propósito específico (genérico), definir funcionalidades
+
+o module diz quem é a dependência,é um acoplador de controllers e services (ponto central para importar arquivos)
+
+um modulo pode importar outro e assim voce pode separar a aplicação..
+__
+
+inversão de dependencias > quem for instanciar a classe vai dizer quais as dependências através de um construtor
+
+injeção de dependências > automatizar a inserção das dependencias no momento que forem instanciadas @injectable
+
+__
+
+prisma = ORM (Object-Relational Mapping)
+
+npm i prisma -D
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite
+
+schema.prisma > tabelas do banco de dados
+.env > variavel em ambiente que diz o endereço do nosso banco
+
+? pode ser nulo
+
+@@index chave estrangeira
+
+npx prisma migrate dev
+
+npx prisma studio
+
+prisma.service.ts > assim que a aplicação subir ele força a conexão com o prisma
+
+npm i class-validator class-transformer
