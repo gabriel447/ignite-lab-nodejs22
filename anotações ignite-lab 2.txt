@@ -14,3 +14,5 @@ o repositório vai definir quais métodos podemos ter e depois implementar em v�
 você pode usar interfaces mas o nest é melhor com classes abstratas
 
 void = se não tiver nada ele não tem retorno
+
+in memory database
