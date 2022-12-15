@@ -22,3 +22,5 @@ DTO -Data Transfer Object - objetos que carregam dados mas sem comportamentos
 npm run start:dev
 
 npx prisma studio
+
+npm run test:cov
