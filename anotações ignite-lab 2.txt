@@ -1,0 +1,2 @@
+undefined = nunca foi setado, nem existiria
+null = quando já está setado mas eu quero um valor vazio
