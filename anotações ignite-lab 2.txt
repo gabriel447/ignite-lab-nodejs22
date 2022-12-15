@@ -1,4 +1,6 @@
 undefined = nunca foi setado, nem existiria
 null = quando já está setado mas eu quero um valor vazio
 
-content: classe para pegar um atributo específico e fazer alterações de forma isolada.
+content.ts = classe para pegar um atributo específico e fazer alterações de forma isolada.
+
+jest (npm run test:watch)
