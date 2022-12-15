@@ -4,3 +4,5 @@ null = quando já está setado mas eu quero um valor vazio
 content.ts = classe para pegar um atributo específico e fazer alterações de forma isolada.
 
 jest (npm run test:watch)
+
+casos de uso = como o usuario interage com as entidades
