@@ -16,3 +16,9 @@ você pode usar interfaces mas o nest é melhor com classes abstratas
 void = se não tiver nada ele não tem retorno
 
 in memory database
+
+DTO -Data Transfer Object - objetos que carregam dados mas sem comportamentos
+
+npm run start:dev
+
+npx prisma studio
