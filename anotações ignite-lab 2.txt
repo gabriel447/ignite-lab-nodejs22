@@ -6,3 +6,11 @@ content.ts = classe para pegar um atributo específico e fazer alterações de f
 jest (npm run test:watch)
 
 casos de uso = como o usuario interage com as entidades
+
+o repositório que coloca os dados dos casos de uso na camada de persistência (faz o midlleware)
+
+o repositório vai definir quais métodos podemos ter e depois implementar em várias tecnologias diferentes
+
+você pode usar interfaces mas o nest é melhor com classes abstratas
+
+void = se não tiver nada ele não tem retorno
