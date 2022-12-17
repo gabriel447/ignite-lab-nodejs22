@@ -1,3 +1,5 @@
 paths = configuração no tsconfig para usar caminhos como se fosse variáveis
 mappers = converter/transformar atributos de uma entidade para usa-los de formas diferentes em vários níveis da aplicação
 npx tsc --noEmit
+
+npm run test:watch
